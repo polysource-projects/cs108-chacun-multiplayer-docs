@@ -43,6 +43,8 @@ Les messages à envoyer au serveur sont représentés par un emoji ⬆️ et les
 Il est possible de rejoindre une partie en se connectant au serveur via cet endpoint:
 `wss://cs108-chacun-ws-server.sys.polysource.ch?username=USERNAME&gameId=GAMEID`.
 
+Un exemple de client Websocket est ici : https://stackoverflow.com/a/55464326/11856499.
+
 Une fois connecté, vous recevrez un message du serveur vous indiquant si vous avez bien rejoint la partie, suivi des pseudos des autres joueurs triés dans l'ordre d'arrivée (le vôtre sera donc à la fin).
 
 ⬇️ `GAMEJOIN_ACCEPT.Username1,Username2,Username3`
