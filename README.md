@@ -2,9 +2,9 @@
 
 Un serveur pour la version électronique du jeu Chasseurs et cueilleurs au Néolithique, abrégé ChaCuN, pour le cours CS-108 à l'EPFL.
 
-Ce jeu se joue normalement sur le même ordinateur et il est possible de faire une version qui permet de fonctionner avec deux ordinateurs connectés au même réseau local.
+Ce jeu se joue normalement sur le même ordinateur et il est possible de faire une version permettant de fonctionner avec deux ordinateurs connectés au même réseau local.
 
-Simplement, cela ne donne clairement pas une expérience de jeu satisfaisante surtout pour faire quelques parties pendant les vacances d'été pour fêter la fin de la première année :)
+Cependant, cela ne donne clairement pas une expérience de jeu satisfaisante surtout pour faire quelques parties pendant les vacances d'été pour fêter la fin de la première année :)
 
 Avec l'accord de M. Schinz, nous mettons sur ce dépôt GitHub la documentation complète d'un serveur de jeu hébergé dans un datacenter et que vous pouvez utiliser dans votre propre jeu.
 
