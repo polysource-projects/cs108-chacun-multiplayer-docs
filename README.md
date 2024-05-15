@@ -18,7 +18,7 @@ Grâce au websocket, tout ça est fait en temps réel depuis deux ordinateurs co
 
 Un anti-cheat vérifie que le joueur courant a bien les permissions de jouer, même si un utilisateur essaye d'envoyer des paquets modifiés malveillants.
 
-Un exemple de rendu du jeu (chacun chez nous) :
+Un exemple de rendu du jeu (chacun chez nous, voir les messages de chat en temps réel à droite) :
 
 ![demo](demo.jpg)
 
