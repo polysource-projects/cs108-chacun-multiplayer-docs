@@ -14,9 +14,11 @@ Ce serveur permet, entre autre :
 * d'envoyer des messages de chat
 * d'exécuter des actions
 
+Grâce au websocket, tout ça est fait en temps réel depuis deux ordinateurs connectés sur des réseaux différents.
+
 Un anti-cheat vérifie que le joueur courant a bien les permissions de jouer, même si un utilisateur essaye d'envoyer des paquets modifiés malveillants.
 
-Un exemple de rendu du jeu :
+Un exemple de rendu du jeu (chacun chez nous) :
 
 ![demo](demo.jpg)
 
