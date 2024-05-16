@@ -24,7 +24,7 @@ Un exemple de rendu du jeu (chacun chez nous, voir les messages de chat en temps
 
 ## Qui devrait utiliser ce dépôt ?
 
-Il est assez difficile de créer un serveur Websocket en Java sans librairie externe, et il faut avoir un serveur pour le faire tourner. C'est assez pénible de s'embêter avec ces détails semaine 12 de l'EPFL :)
+Il est assez difficile de créer un serveur Websocket en Java sans librairie externe, et il faut avoir un serveur physique connecté à Internet et en ligne 24/7. C'est assez pénible de s'embêter avec ces détails semaine 12 de l'EPFL :)
 
 Si vous n'avez pas envie de perdre beaucoup de temps avec le projet mais souhaitez implémenter une version multijoueur, utiliser cette API ne ne sera pas considéré comme du plagiat par M. Schinz, mais aucun point lors du bonus n'est garanti. Faites-le pour le challenge et pour le plaisir d'avoir un jeu qui marche !
 
