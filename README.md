@@ -41,7 +41,7 @@ Les messages à envoyer au serveur sont représentés par un emoji ⬆️ et les
 ### Rejoindre une partie
 
 Il est possible de rejoindre une partie en se connectant au serveur via cet endpoint:
-`wss://cs108-chacun-ws-server.sys.polysource.ch?username=USERNAME&gameName=GAMENAME`.
+`wss://cs108-chacun-multiplayer.sys.polysource.ch?username=USERNAME&gameName=GAMENAME`.
 
 Un exemple de client Websocket est ici : https://stackoverflow.com/a/55464326/11856499.
 
