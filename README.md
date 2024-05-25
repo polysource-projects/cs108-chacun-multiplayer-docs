@@ -41,7 +41,7 @@ Les messages à envoyer au serveur sont représentés par un emoji ⬆️ et les
 ### Rejoindre une partie
 
 Il est possible de rejoindre une partie en se connectant au serveur via cet endpoint:
-`wss://cs108-chacun-multiplayer.sys.polysource.ch?username=USERNAME&gameName=GAMENAME`.
+`wss://cs108-chacun-multiplayer-v2.sys.polysource.ch?username=USERNAME&gameName=GAMENAME`.
 
 Un exemple de client Websocket est ici : https://stackoverflow.com/a/55464326/11856499.
 
@@ -59,10 +59,14 @@ Lorsqu'un joueur effectue une action, vous devez envoyer ⬆️ `GAMEACTION.code
 
 Notez que le serveur vérifie que le joueur qui envoie une action a bien l'autorisation de le faire (dans le sens où c'est bien son tour).
 
-Le serveur envoie ensuite un message ⬇️ `GAMEACTION.code` à tous les joueurs sauf celui qui a envoyé l'action, ou ⬇️ `GAMEACTION_DENY` si l'action est invalidée par le serveur.
+Le serveur envoie ensuite un message ⬇️ `GAMEACTION_ACCEPT.code` à tous les joueurs, ou ⬇️ `GAMEACTION_DENY` si l'action est invalidée par le serveur.
 
 ### Envoi et réception des messages
 
 Lorsqu'un joueur souhaite envoyer un message, vous devez envoyer ⬆️ `GAMEMSG.content` où `content` est le contenu sérialisé du message.
 
 Vous et les autres joueurs recevez en réponse ⬇️ `GAMEMSG.username=content` où `username=content` est le message sérialisé.
+
+### Déconnexion de joueurs
+
+Si un joueur se déconnecte lors d'une partie, tous les joueurs reçoivent le message ⬇️ `GAMELEAVE.Username1,Username2,Username3` et la partie repasse en mode lobby (vous devez réinitialiser la partie côté client).
